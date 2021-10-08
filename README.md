@@ -1,3 +1,3 @@
 # This is nothing special
 
-learning #C programing language.
+learning C programing language.
