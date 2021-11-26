@@ -2,12 +2,21 @@
 
 int main()
 {
+    /*
+    Decimel input.
+    */
     int a, b, c;
     printf("Enter the value of a: \n");
     scanf("%d", &a);
     printf("Enter the value of b: \n");
     scanf("%d", &b);
     c = a + b;
-    printf("%d + %d = %d", a, b, c);
+    printf("%d + %d = %d \n", a, b, c);
+
+    /* String input */
+    char name[30];
+    scanf("%s", name);
+    printf("Hello %s", name);
+
     return 0;
 }
