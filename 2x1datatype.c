@@ -45,5 +45,5 @@ int main(){
    // long long intiger can take suuuuuuuppppppppeeeeeeerrrrrrr HUGE numbers. takes 8 bytes of memory.
    int x = 2325342; // %d (%u for unsigned int)
    short int a = 3432;  // %d 
-   long long gone = 123456789097387423773476; // %lld (%llu for unsigned long long intiger)
+   long long gone = 1234567890973874; // %lld (%llu for unsigned long long intiger)
 }
