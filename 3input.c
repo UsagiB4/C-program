@@ -1,8 +1,14 @@
 #include <stdio.h>
-#include <string.h>
+
 
 int main()
 {
+    /* String input */
+    printf("Enter your name: ");
+    char names [30];
+    //scanf("%s", &name);
+    fgets(names, 25, stdin);
+    printf("my name is %s", names);
     /*
     Decimel input.
     */
@@ -14,11 +20,6 @@ int main()
     c = a + b;
     printf("%d + %d = %d \n", a, b, c);
 
-    /* String input */
-    printf("Enter your name: ");
-    char name[30];
-    scanf("%s", name);
-    printf("Hello %s", name);
 
-    return 0;
+
 }
